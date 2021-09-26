@@ -6,8 +6,6 @@ Md-FKNNreg is a generalized regression model based on the fuzzy k-nearest neighb
 **Matlab functions:** <br/>
 The functions of the Md-FKNNreg algorithm (`Md_FKNNreg.m`) and the FKNNreg (`FKNNreg`) are included. Here, the FKNNreg is the fuzzy k-nearest regression model based on the Euclidean distance. 
 
-### Reference: \\
-    Kumbure, M.M. and Luukka,P.(2021) A generalized fuzzy k-nearest neighbor regression model based on Minkowski distance. Granular Computing
 
 Reference:
     [Kumbure, M.M. and Luukka,P. (2021) A generalized fuzzy k-nearest neighbor regression model based on Minkowski distance. *Granular Computing*](https://doi.org/10.1007/s41066-021-00288-w)<br/>
