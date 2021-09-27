@@ -50,7 +50,7 @@ for i=1:num_test
      distances = euc_dis';
      
     [~, indeces]   = sort(distances); % Sort the distances
-	neighbor_index = indeces(1:K);    % Find the indeces of nearest neighbors
+	neighbor_index = indeces(1:K);    % Find the indexes of nearest neighbors
     weight         = ones(1,length(neighbor_index)); % Initialization of weights
     
 	if fuzzy
