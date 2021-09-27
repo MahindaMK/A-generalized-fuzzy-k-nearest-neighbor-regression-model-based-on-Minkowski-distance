@@ -50,7 +50,7 @@ for i=1:num_xtest
      distances  = mink_dis';
     
     [~, indeces]    = sort(distances); % Sort the distances
-     neighbor_index = indeces(1:K);    % Find the indeces of nearest neighbors
+     neighbor_index = indeces(1:K);    % Find the indexes of nearest neighbors
     
     % compute fuzzy weights:
         % though this weight calculation should be: 
