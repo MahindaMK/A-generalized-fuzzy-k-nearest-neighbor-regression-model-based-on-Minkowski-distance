@@ -49,8 +49,8 @@ for i=1:num_test
      euc_dis   = pdist2(xtrain, xtest(i,:),'euclidean');
      distances = euc_dis';
      
-    [~, indeces]   = sort(distances); % Sort the distances
-	neighbor_index = indeces(1:K);    % Find the indexes of nearest neighbors
+    [~, indices]   = sort(distances); % Sort the distances
+	neighbor_index = indices(1:K);    % Find the indexes of nearest neighbors
     weight         = ones(1,length(neighbor_index)); % Initialization of weights
     
 	if fuzzy
