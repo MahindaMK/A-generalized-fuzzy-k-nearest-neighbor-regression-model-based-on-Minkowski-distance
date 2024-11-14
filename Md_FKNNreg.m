@@ -49,8 +49,8 @@ for i=1:num_xtest
      mink_dis   = pdist2(xtrain, xtest(i,:),'minkowski',p);
      distances  = mink_dis';
     
-    [~, indeces]    = sort(distances); % Sort the distances
-     neighbor_index = indeces(1:K);    % Find the indexes of nearest neighbors
+    [~, indices]    = sort(distances); % Sort the distances
+     neighbor_index = indices(1:K);    % Find the indexes of nearest neighbors
     
     % compute fuzzy weights:
         % though this weight calculation should be: 
